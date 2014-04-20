@@ -6,37 +6,88 @@ textarea {
     color: #222;
 }
 
+h1, h2, h3, h4, p{
+   font-family: 'Open+Sans', sans-serif;
+color: #fff;
+}
+
 html {
     font-size: 1em;
     line-height: 1.4;
 }
-
-
-
-
-
-/*
- * Hide from both screenreaders and browsers: h5bp.com/u
- */
 
 .hidden {
     display: none !important;
     visibility: hidden;
 }
 
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
-
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+#header {
+    height:auto;
+    padding-top:10px;
+    padding-bottom: 10px;
+    background-color: #822fa1;
 }
 
-@media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
+#head-top {
+    height:50px;
+}
+
+#settings-btn {
+    float:left;
+    width:45px;
+    height:50px;
+    padding-right: 20px;
+}
+
+#logo-container {
+    margin:auto;
+    min-width: 280px;
+    width:280px;
+    height:50px;
+    color: #FFF;
+    font-size: 2.5em;
+}
+
+#logo-img {
+    float:left;
+    height:50px;
+}
+#logo-text {
+    float:left;
+    padding-left: 20px;
+    height:50px;
+}
+
+#head-middle h3{
+    width:auto;
+    padding-top:10px;
+    padding-left:20px;
+    padding-right:20px;
+    text-align: center;
+    color: #83c3e3;
+}
+
+.menu-btn {
+    text-align: center;
+    margin-right:10px;
+    display:inline-block;
+    width:130px;
+    height:130px;
+    background-color:#fff;
+    color:#000;
+}
+.menu-btn img{
+    margin-top:5px;
+    width:95px;
+    height:95px;
+}
+.menu-btn p{
+    padding:0;
+    margin:0;
+    color:#000;
+}
+
+#head-bottom {
+    width:430px;
+    margin:auto;
 }
