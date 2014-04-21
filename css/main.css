@@ -8,12 +8,35 @@ textarea {
 
 h1, h2, h3, h4, p{
    font-family: 'Open+Sans', sans-serif;
-color: #fff;
+    color: #fff;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1em;
+    color: #83c3e3;
+}
+
+h3 {
+    font-size: 1.2em;
+    color:#4b4b4b;
+}
+
+p {
+    font-size: 1em;
+    color:#4b4b4b;
 }
 
 html {
     font-size: 1em;
     line-height: 1.4;
+}
+
+body {
+    background-color: #f1f1f1;
 }
 
 .hidden {
@@ -58,13 +81,12 @@ html {
     height:50px;
 }
 
-#head-middle h3{
+#head-middle h2{
     width:auto;
     padding-top:10px;
     padding-left:20px;
     padding-right:20px;
     text-align: center;
-    color: #83c3e3;
 }
 
 .menu-btn {
@@ -90,4 +112,62 @@ html {
 #head-bottom {
     width:430px;
     margin:auto;
+}
+
+#content {
+    width:auto;
+    height:auto;
+    background-color:#fff;
+    margin:10px;
+    margin-top:20px;
+    border:2px solid #a8a6a8;
+}
+
+#content-header {
+    height:35px;
+}
+
+#content-header img{
+    position:absolute;
+    float:left;
+    height:55px;
+    padding-left:20px;
+}
+
+#content-header h3{
+    margin:auto;
+    text-align: center;
+    padding-left:20px;
+    height:30px;
+}
+
+#content-image img{
+    display:block;
+    margin:auto;
+    padding-right:20px;
+    max-width: 658px;
+    width:90%; /* you can use % */
+    height: auto;
+}
+
+#content-text {
+    margin:10px;
+}
+
+#content-text p {
+    font-size: 1.2em;
+}
+
+#footer {
+    color:#5f5d5d;
+    margin:10px;
+    height:100px;
+}
+
+#footer-logo {
+    float:right;
+}
+
+#footer-text {
+    float:left;
 }
