@@ -1,11 +1,4 @@
 <!DOCTYPE html>
-
-<?php
-if (!isset($_SESSION)) {
-  session_start();
-  date_default_timezone_set("Australia/Brisbane");
-}
-?>
 <html>
     <head>
         <meta charset="utf-8">
@@ -25,7 +18,7 @@ if (!isset($_SESSION)) {
     <div id="header">
         <div id="head-top">
             <div id ="logo-container">
-                <a href=index.html>
+                <a href=index.php>
                 <div id=logo-text>
                     <div id="logo-text-top">USER SATISFACTION MAP of</div>
                     <div id="logo-text-bottom">The Advanced Engineering Building</div>
@@ -45,7 +38,7 @@ if (!isset($_SESSION)) {
                     <p>BULDING DATA</p>
                 </div>
             </a>
-            <a href=review.html>
+            <a href=review.php>
                 <div class="menu-btn">
                     <img src="img/icon2.png" alt="UQ Logo" height="70" width="70">
                     <p>REVIEWS</p>

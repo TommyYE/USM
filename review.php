@@ -1,12 +1,5 @@
 <!DOCTYPE html>
 
-<?php
-if (!isset($_SESSION)) {
-  session_start();
-  date_default_timezone_set("Australia/Brisbane");
-}
-?>
-
 <html>
     <head>
         <meta charset="utf-8">
@@ -26,7 +19,7 @@ if (!isset($_SESSION)) {
     <div id="header">
         <div id="head-top">
             <div id ="logo-container">
-                <a href=index.html>
+                <a href=index.php>
                 <div id=logo-text>
                     <div id="logo-text-top">USER SATISFACTION MAP of</div>
                     <div id="logo-text-bottom">The Advanced Engineering Building</div>
@@ -46,7 +39,7 @@ if (!isset($_SESSION)) {
                     <p>BULDING DATA</p>
                 </div>
             </a>
-            <a href=review.html>
+            <a href=review.php>
                 <div class="menu-btn">
                     <img src="img/icon2.png" alt="UQ Logo" height="70" width="70">
                     <p>REVIEWS</p>
@@ -80,30 +73,31 @@ if (!isset($_SESSION)) {
                 <div class="review-text">
                     1. How comfortable do you feel in this room?
                 </div>
-                <input id ="answer1" type="text" name="answer1">
+                <input type="text" name="answer1">
+            </div>
             <div class="review-box">
                 <div class="review-text">
                     2. Do you like the temperature in this room?
                 </div>
-                <input id ="answer2" type="text" name="answer2">
+                <input type="text" name="answer2">
             </div>
             <div class="review-box">
                 <div class="review-text">
                     3. Do you want to build a snowman?
                 </div>
-                <input id ="answer3" type="text" name="answer3">
+                <input type="text" name="answer3">
             </div>
             <div class="review-box">
                 <div class="review-text">
                     4. All your base are belong to us?
                 </div>
-                <input id ="answer4" type="text" name="answer4">
+                <input type="text" name="answer4">
             </div>
             <div class="review-box">
                 <div class="review-text">
                     Give Comments! (Optional)
                 </div>
-                <input id ="answer5" type="text" name="answer5">
+                <input type="text" name="answer5">
                 <input class="button green" type="submit" value="Thanks, Submit my review!">
             </div>
         </form>
@@ -112,20 +106,5 @@ if (!isset($_SESSION)) {
         <div id="footer-text">DECO3800 | G8 Group<br/>The University of Queensland</div>
         <div id="footer-logo"><img src="img/uqlogo2.jpg" alt="Stay Connected"/></div>
     </div>
-
-        <script>
-          $("[data-slider]")
-            .each(function () {
-              var input = $(this);
-              $("<span>")
-                .addClass("output")
-                .insertAfter($(this));
-            })
-            .bind("slider:ready slider:changed", function (event, data) {
-              $(this)
-                .nextAll(".output:first")
-                  .html(data.value.toFixed(0));
-            });
-        </script>
     </body>
 </html>
