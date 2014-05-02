@@ -60,18 +60,70 @@
     <div id="content">
         <div id="content-header">
             <img src="img/bookmark.png" alt="UQ Logo" height="55" width="30">
-            <h3>About User Satisfaction Map (USM)</h3>
+            <h3>You are in Room 103</h3>
         </div>
         <div id="content-image">
-            <img src="img/aeb.jpg" alt="Advanced Engineering Building"/>
+            <img src="img/room-103.jpg" alt="Advanced Engineering Building"/>
         </div>
-        <div id="content-text">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lacinia lobortis tincidunt. Maecenas eget nunc sit amet odio commodo commodo. Integer ac arcu in arcu condimentum volutpat at eget nunc. Nam molestie ipsum risus, sit amet hendrerit magna facilisis ornare. Fusce facilisis est sed lorem gravida, sed elementum turpis rutrum. Fusce dui augue, lacinia vel erat imperdiet, condimentum elementum libero.</p>
-        </div>
+    </div>
+    <div id="review-container">
+        <form>
+            <div class="review-box">
+                <div class="review-text">
+                    1. From a scale of 1 to 10, how comfortable do you feel in this room?
+                </div>
+               <input type="text" data-slider="true" data-slider-range="1,10" data-slider-step="1" data-slider-snap="true">
+            </div>
+            <div class="review-box">
+                <div class="review-text">
+                    2. Do you like the temperature in this room?
+                </div>
+                <div class="button purple">Yes, awesome!</div>
+                <div class="button red">Nah, just so-so</div>
+            </div>
+            <div class="review-box">
+                <div class="review-text">
+                    3. Do you want to build a snowman?
+                </div>
+                <input type="radio" name="sex" value="Static Item">Static Item<br>
+                <input type="radio" name="sex" value="Item on Hover">Item on Hover<br>
+                <input type="radio" name="sex" value="Checked">Checked<br>
+                <input type="radio" name="sex" value="Static Item">Static Item<br>
+            </div>
+            <div class="review-box">
+                <div class="review-text">
+                    4. All your base are belong to us?
+                </div>
+                <div class="button purple">Yes, awesome!</div>
+                <div class="button red">Nah, just so-so</div>
+            </div>
+            <div class="review-box">
+                <div class="review-text">
+                    Give Comments! (Optional)
+                </div>
+                <input id = review-text type="text" name="review">
+                <div class="button green">Thanks, Submit my review!</div>
+            </div>
+        </form>
     </div>
     <div id="footer">
         <div id="footer-text">DECO3800 | G8 Group<br/>The University of Queensland</div>
         <div id="footer-logo"><img src="img/uqlogo2.jpg" alt="Stay Connected"/></div>
     </div>
+
+        <script>
+          $("[data-slider]")
+            .each(function () {
+              var input = $(this);
+              $("<span>")
+                .addClass("output")
+                .insertAfter($(this));
+            })
+            .bind("slider:ready slider:changed", function (event, data) {
+              $(this)
+                .nextAll(".output:first")
+                  .html(data.value.toFixed(0));
+            });
+        </script>
     </body>
 </html>
