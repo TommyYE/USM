@@ -10,7 +10,7 @@ $answer3= $_REQUEST['answer3'];
 $answer4= $_REQUEST['answer4'];
 $answer5= $_REQUEST['answer5'];
 
-$con=mysqli_connect("localhost","root","","USM");
+$con=mysqli_connect("localhost","root","--put password here--","USM");
 
 if (mysqli_connect_errno())
   {

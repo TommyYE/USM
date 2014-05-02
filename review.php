@@ -80,30 +80,30 @@ if (!isset($_SESSION)) {
                 <div class="review-text">
                     1. How comfortable do you feel in this room?
                 </div>
-                <input id ="answer1" type="text" name="review">
+                <input id ="answer1" type="text" name="answer1">
             <div class="review-box">
                 <div class="review-text">
                     2. Do you like the temperature in this room?
                 </div>
-                <input id ="answer2" type="text" name="review">
+                <input id ="answer2" type="text" name="answer2">
             </div>
             <div class="review-box">
                 <div class="review-text">
                     3. Do you want to build a snowman?
                 </div>
-                <input id ="answer3" type="text" name="review">
+                <input id ="answer3" type="text" name="answer3">
             </div>
             <div class="review-box">
                 <div class="review-text">
                     4. All your base are belong to us?
                 </div>
-                <input id ="answer4" type="text" name="review">
+                <input id ="answer4" type="text" name="answer4">
             </div>
             <div class="review-box">
                 <div class="review-text">
                     Give Comments! (Optional)
                 </div>
-                <input id ="answer5" type="text" name="review">
+                <input id ="answer5" type="text" name="answer5">
                 <input class="button green" type="submit" value="Thanks, Submit my review!">
             </div>
         </form>
