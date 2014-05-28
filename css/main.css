@@ -62,11 +62,10 @@ body {
 
 #logo-container {
     margin:auto;
-    min-width: ;
-    width:440px;
+    width:400px;
     height:50px;
     color: #FFF;
-    font-size: 2.5em;
+    font-size: 2.3em;
 }
 
 #logo-text {
@@ -103,26 +102,28 @@ body {
 
 .menu-btn {
     text-align: center;
-    margin-right:10px;
+    margin-left:22px;
     display:inline-block;
-    width:130px;
-    height:130px;
+    width:100px;
+    height:90px;
     background-color:#fff;
     color:#000;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
 .menu-btn img{
-    margin-top:5px;
-    width:95px;
-    height:95px;
+    margin-top:10px;
+    height:50px;
 }
 .menu-btn p{
     padding:0;
     margin:0;
     color:#000;
+    font-size:0.8em;
 }
 
 #head-bottom {
-    width:430px;
+    width:400px;
     margin:auto;
 }
 
@@ -255,7 +256,19 @@ a:visited {
   text-align: center; /* DELETE WHEN WIDTH AUTO */
 }
 .red {
-    background-color:#ff4242;
+    background-color:#d9015d;
+}
+
+.yellow {
+    background-color:#fcca00;
+}
+
+.blue {
+    background-color:#01c6d9;
+}
+
+.green2 {
+    background-color:#81c036;
 }
 
 .green {
@@ -263,10 +276,21 @@ a:visited {
     width:200px;
 }
 
+.red:hover {
+   background-color:#ff046f;
+}
 
+.blue:hover {
+    background-color:#01edff;
+}
 
+.yellow:hover {
+   background-color:#fff200;
+}
 
-
+.green2:hover {
+    background-color:#98e53d;
+}
 
 #review-text {
     display:block;
