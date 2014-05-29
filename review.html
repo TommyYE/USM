@@ -13,6 +13,16 @@
         <link rel="stylesheet" href="css/main.css">
         <script src="js/simple-slider.js"></script>
         <link href="css/simple-slider.css" rel="stylesheet" type="text/css" />
+        
+        <script>
+        function toggle(obj) {
+
+            var toToggle = document.getElementById(obj);
+
+            toToggle.style.display = (toToggle.style.display != 'inherit' ? 'inherit' : 'none' );
+
+        }
+        </script>
     </head>
     <body>
     <div id="header">
@@ -47,9 +57,9 @@
                         <p>FIND A ROOM</p>
                     </div>
                 </a>
-                <a href=#>
+                <a href=# onclick="toggle('search-bar')">
                     <div class="menu-btn2">
-                        <img src="/img/search-icon.png" alt="Search" height="30" width="30">
+                        <img src="/img/search.png" alt="Search" height="30" width="30">
                     </div>
                 </a>
             </div>
@@ -57,7 +67,7 @@
     </div>
     <div id="search-bar">
         <form id="search1">
-            <input class="Search-text-placeholder" type="text" name="query" placeholder="SEARCH COURSE NAME OR ROOM NUMBER     ">
+            <input class="Search-text-placeholder" type="text" name="query" placeholder="SEARCH COURSE NAME/ ROOM NUMBER     ">
         </form>    
     </div>
     <div id="content">
