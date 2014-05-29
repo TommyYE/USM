@@ -40,6 +40,7 @@ html {
 }
 
 body {
+    background-image:url('/img/backdrop.jpg');
     background-color: #f1f1f1;
 }
 
@@ -128,16 +129,19 @@ body {
 }
 
 #content {
+    background-image:url('/img/backdrop.jpg');
     width:auto;
     height:auto;
     background-color:#fff;
     margin:10px;
     margin-top:30px;
-    border:2px solid #a8a6a8;
+    border:1px solid #a8a6a8;
+    -moz-border-radius: 5px;
+    border-radius: 15px;
 }
 
 #content-header {
-    height:35px;
+    height:50px;
 }
 
 #content-header img{
@@ -151,6 +155,7 @@ body {
     margin:auto;
     text-align: center;
     padding-left:20px;
+    padding-top:10px;
     height:30px;
 }
 
