@@ -160,6 +160,7 @@ body {
     color:#fff;
     background-color: #222;
     text-align: right;
+    font-size:0.8em;
     border:0px solid rgba(99, 141, 255, 0.56);
     -moz-border-radius: 5px;
     border-radius: 5px;
@@ -214,11 +215,17 @@ body {
 }
 
 #footer-logo {
-    float:right;
+    display:block;
+}
+
+#footer-logo img {
+    max-width: 150px;
+    width:90%; /* you can use % */
+    height: auto;
 }
 
 #footer-text {
-    float:left;
+    display:block;
 }
 
 a:hover {
@@ -258,11 +265,11 @@ a:visited {
     cursor: pointer;
     display: inline-block;
     font-family: Arial,sans-serif;
-    font-size:0.8em;
+    font-size:0.7em;
     font-weight: bold;
     line-height: 20px;
     text-transform: none;
-    width: 80px; /* auto */
+    width: 75px; /* auto */
     padding:5px;
     text-align: center; /* DELETE WHEN WIDTH AUTO */
 }
