@@ -41,7 +41,7 @@ html {
 
 body {
     background-color: #fff;
-    background-image:url('img/backdrop.jpg');
+    background-image:url('../img/backdrop.jpg');
     background-repeat:repeat-x;
 }
 
