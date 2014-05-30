@@ -254,57 +254,70 @@ a:visited {
 }
 
 .button {
-    background-color:#7d2e9b;
-  border: 0 none;
-  border-radius: 2px 2px 2px 2px;
-  color: #FFFFFF;
-  cursor: pointer;
-  display: inline-block;
-  font-family: Arial,sans-serif;
-  font-size: 12px;
-  font-weight: bold;
-  line-height: 20px;
-  margin:10px;
-  padding: 7px 10px;
-  text-transform: none;
-  width: 100px; /* auto */
-  text-align: center; /* DELETE WHEN WIDTH AUTO */
-}
-.red {
-    background-color:#d9015d;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #000;
+    background-color:#fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Arial,sans-serif;
+    font-size: 0.8em;
+    font-weight: bold;
+    line-height: 20px;
+    margin:10px;
+    padding: 7px 10px;
+    text-transform: none;
+    width: 70px; /* auto */
+    text-align: center; /* DELETE WHEN WIDTH AUTO */
 }
 
-.yellow {
-    background-color:#fcca00;
+.red {
+    color:#e34e36;
+    border:3px #e34e36 solid;
 }
 
 .blue {
-    background-color:#01c6d9;
+    color:#3d96e0;
+    border:3px #3d96e0 solid;
 }
 
-.green2 {
-    background-color:#81c036;
+.purple {
+    color:#9856bb;
+    border:3px #9856bb solid;
+}
+
+.dark {
+    color:#354860;
+    border:3px #354860 solid;
 }
 
 .green {
-    background-color:#1abc9c;
-    width:200px;
+    color:#42cd62;
+    border:3px #42cd62 solid;
 }
 
-.red:hover {
-   background-color:#ff046f;
+.button:hover {
+    color:#efc600;
+    border:3px #efc600 solid;
+    background: repeating-linear-gradient(
+      45deg,
+      #606dbc,
+      #606dbc 10px,
+      #465298 10px,
+      #465298 20px
+    );
 }
 
-.blue:hover {
-    background-color:#01edff;
-}
-
-.yellow:hover {
-   background-color:#fff200;
-}
-
-.green2:hover {
-    background-color:#98e53d;
+.highlight {
+    color:#efc600;
+    border:3px #efc600 solid;
+    background: repeating-linear-gradient(
+      45deg,
+      #606dbc,
+      #606dbc 10px,
+      #465298 10px,
+      #465298 20px
+    );
 }
 
 #review-text {
@@ -313,4 +326,8 @@ a:visited {
     margin:5px;
     background-color:#fcf7f7;
     border:2px solid #b9b8b8;
+}
+
+#temp-1, #temp-2, #temp-3, #temp-4{
+    display:none;
 }
