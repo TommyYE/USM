@@ -1,0 +1,40 @@
+#review-container {
+    width: auto;
+    height: auto;
+    background-color: #fff;
+    margin: 10px;
+    margin-top: 30px;
+    border: 2px solid #a8a6a8;
+}
+#search-types-container {
+    width: 300px;
+    height: 160px;
+    margin: auto;
+}
+.search-type {
+    background-color: #fff;
+    cursor: pointer;
+    text-transform: none;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border: 2px #9856bb solid;
+    float: left;
+    width: 142px;
+    height: 142px;
+    margin: 2px;
+    display: inline-block;
+}
+.search-type img {
+    width: 70px;
+    height: 70px;
+    margin: 0;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.search-type p {
+    color: #000;
+    padding-top: 5px;
+    font-size: 0.8em;
+    text-align: center;
+    font-weight: bold;
+}
