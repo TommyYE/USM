@@ -30,10 +30,8 @@
     line-height: 20px;
     text-transform: none;
     width: 75px;
-    /* auto */
     padding: 5px;
     text-align: center;
-    /* DELETE WHEN WIDTH AUTO */
 }
 .red {
     color: #e34e36;
@@ -96,6 +94,5 @@
     border: 2px rgba(178, 237, 255, 0.96) solid;
 }
 #form-submit {
-    margin: 10px;
-    width: 100px;
+    width: 110px;
 }
