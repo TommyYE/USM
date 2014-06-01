@@ -118,6 +118,76 @@
                     <div id="11" class="button red">No</div>
                 </div>
             </div>
+            <hr>
+            <div id="light">
+                <div class="review-box">
+                    <div class="review-text">
+                        Now, how is the lighting in the room?
+                    </div>
+                    <div id="12" class="button red">Too Bright!</div>
+                    <div id="13" class="button purple">Just Right</div>
+                    <div id="14" class="button blue">Too Dark!</div>
+                </div>
+                <div id="light-1" class="review-box">
+                    <div class="review-text">
+                        Are the blinds open?
+                    </div>
+                    <div id="15" class="button red">Yes</div>
+                    <div id="16" class="button blue">No</div>
+                </div>
+                <div id="light-2" class="review-box">
+                    <div class="review-text">
+                        Are the lights to bright inside?
+                    </div>
+                    <div id="17" class="button blue">Yes</div>
+                    <div id="18" class="button red">No</div>
+                </div>
+                <div id="light-3" class="review-box">
+                    <div class="review-text">
+                        Are the lights on?
+                    </div>
+                    <div id="19" class="button blue">Yes</div>
+                    <div id="20" class="button red">No</div>
+                </div>
+                <div id="light-4" class="review-box">
+                    <div class="review-text">
+                        Are the shades down?
+                    </div>
+                    <div id="21" class="button blue">Yes</div>
+                    <div id="22" class="button red">No</div>
+                </div>
+                <div id="light-5" class="review-box">
+                    <div class="review-text">
+                        Is the anything blocking the windows?
+                    </div>
+                    <div id="23" class="button blue">Yes</div>
+                    <div id="24" class="button red">No</div>
+                </div>
+            </div>
+            <hr>
+            <div id="Noise">
+                <div class="review-box">
+                    <div class="review-text">
+                        Now, how is the lighting in the room?
+                    </div>
+                    <div id="25" class="button red">Too Loud!</div>
+                    <div id="26" class="button purple">Just Right</div>
+                </div>
+                <div id="noise-1" class="review-box">
+                    <div class="review-text">
+                        Is there any construction outside?
+                    </div>
+                    <div id="27" class="button red">Yes</div>
+                    <div id="28" class="button blue">No</div>
+                </div>
+                <div id="noise-2" class="review-box">
+                    <div class="review-text">
+                        Is there any construction inside?
+                    </div>
+                    <div id="29" class="button blue">Yes</div>
+                    <div id="30" class="button red">No</div>
+                </div>
+            </div>
         </form>
     </div>
     <div id="footer">
@@ -125,88 +195,6 @@
         <div id="footer-logo"><img src="img/uqlogo2.jpg" alt="Stay Connected"/></div>
     </div>
         
-    <script>
-        function resetHot() {
-            $( "#1" ).removeClass("highlight");
-            $( "#4" ).removeClass("highlight");
-            $( "#5" ).removeClass("highlight");
-            $( "#6" ).removeClass("highlight");
-            $( "#7" ).removeClass("highlight");
-            $( "#temp-1" ).hide('0');
-            $( "#temp-2" ).hide('0');
-        }
-        
-        function resetCold() {
-            $( "#3" ).removeClass("highlight");
-            $( "#8" ).removeClass("highlight");
-            $( "#9" ).removeClass("highlight");
-            $( "#10" ).removeClass("highlight");
-            $( "#11" ).removeClass("highlight");
-            $( "#temp-3" ).hide('0');
-            $( "#temp-4" ).hide('0');
-        }
-        
-        $("#1").click(function() {
-            resetCold();
-            $( "#2" ).removeClass("highlight");
-            $( "#temp-1" ).toggle('500');
-            $( this ).toggleClass("highlight");
-        });
-        
-        $("#2").click(function() {
-            resetHot();
-            resetCold();
-            $( this ).toggleClass("highlight");
-        });
-
-        $("#3").click(function() {
-            resetHot();
-            $( "#2" ).removeClass("highlight");
-            $( "#temp-3" ).toggle('500');
-            $( this ).toggleClass("highlight");
-        });
-        
-        $("#4").click(function() {
-            $( this ).toggleClass("highlight");
-            $( "#5" ).removeClass("highlight");
-            $( "#6" ).removeClass("highlight");
-            $( "#7" ).removeClass("highlight");
-            $( "#temp-2" ).hide('500');
-        });
-
-        $("#5").click(function() {
-            $( this ).toggleClass("highlight");
-            $( "#4" ).removeClass("highlight");
-            $( "#temp-2" ).toggle('500');
-        });
-        $("#6").click(function() {
-            $( this ).toggleClass("highlight");
-            $( "#7" ).removeClass("highlight");
-        });
-        $("#7").click(function() {
-            $( this ).toggleClass("highlight");
-            $( "#6" ).removeClass("highlight");
-        });
-        $("#8").click(function() {
-            $( this ).toggleClass("highlight");
-            $( "#9" ).removeClass("highlight");
-            $( "#10" ).removeClass("highlight");
-            $( "#11" ).removeClass("highlight");
-            $( "#temp-4" ).hide('500');
-        });
-        $("#9").click(function() {
-            $( this ).toggleClass("highlight");
-            $( "#8" ).removeClass("highlight");
-            $( "#temp-4" ).toggle('500');
-        });
-        $("#10").click(function() {
-            $( this ).toggleClass("highlight");
-            $( "#11" ).removeClass("highlight");
-        });
-        $("#11").click(function() {
-            $( this ).toggleClass("highlight");
-            $( "#10" ).removeClass("highlight");
-        });
-    </script>
+        <script src="js/review.js"></script>
     </body>
 </html>
