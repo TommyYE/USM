@@ -340,3 +340,16 @@ a:visited {
 .review-text {
     padding-bottom:5px;
 }
+
+.comments {
+    text-align: left;
+    line-height: 20px;
+    height:60px;
+    width:90%;
+    border:2px rgba(178, 237, 255, 0.96) solid;
+}
+
+#form-submit {
+    margin:10px;
+    width:100px;
+}
