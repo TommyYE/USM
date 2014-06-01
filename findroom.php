@@ -30,7 +30,7 @@
     <div id="header">
         <div id="head-top">
             <div id="logo-container">
-                <a href=index.html>
+                <a href=index.php>
                     <div id="logo-img">
                         <img src="img/uqlogosmall.png" alt="UQ Logo" height="50" width="43">
                     </div>
@@ -50,12 +50,12 @@
                         <p>BULDING INFO</p>
                     </div>
                 </a>
-                <a href=review.html>
+                <a href=review.php>
                     <div class="menu-btn">
                         <p>REVIEWS</p>
                     </div>
                 </a>
-                <a href=findroom.html>
+                <a href=findroom.php>
                     <div class="menu-btn">
                         <p>FIND A ROOM</p>
                     </div>
@@ -80,13 +80,13 @@
         </div>
         <hr>
         <div id="search-types-container">
-            <a href=searchmap.html>
+            <a href=searchmap.php>
                 <div class="search-type">
                     <img src="img/searchOrange.png" alt="UQ Logo">
                     <p>SEARCH BY ROOM NUMBER</p>
                 </div>
             </a>
-            <a href=searchlist.html>
+            <a href=searchlist.php>
                 <div class="search-type">
                     <img src="img/searchBlue.png" alt="UQ Logo">
                     <p>SEARCH BY MAP</p>

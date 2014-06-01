@@ -30,7 +30,7 @@
     <div id="header">
         <div id="head-top">
             <div id="logo-container">
-                <a href=index.html>
+                <a href=index.php>
                     <div id="logo-img">
                         <img src="img/uqlogosmall.png" alt="UQ Logo" height="50" width="43">
                     </div>
@@ -50,12 +50,12 @@
                         <p>BULDING INFO</p>
                     </div>
                 </a>
-                <a href=review.html>
+                <a href=review.php>
                     <div class="menu-btn">
                         <p>REVIEWS</p>
                     </div>
                 </a>
-                <a href=findroom.html>
+                <a href=findroom.php>
                     <div class="menu-btn">
                         <p>FIND A ROOM</p>
                     </div>
