@@ -23,18 +23,6 @@
             toToggle.style.display = (toToggle.style.display != 'inherit' ? 'inherit' : 'none');
 
         }
-
-        function changeImage() {
-            document.getElementById("floor-image").src = "img/Level3_V2.png";
-        }
-
-        function changeImage2() {
-            document.getElementById("floor-image").src = "img/Level4.png";
-        }
-
-        function room(name) {
-            document.getElementById("room-info").innerHTML = name;
-        }
     </script>
 </head>
 
@@ -96,16 +84,16 @@
             <map name="floormap">
                 <area shape="rect" coords="10,30,80,80" alt="301" href="#" onclick="room(301)">
                 <area shape="rect" coords="80,30,125,80" alt="316" href="#" onclick="room(316)">
-                <area shape="rect" coords="125,30,185,80" alt="316A" href="#" onclick="room(316A)">
+                <area shape="rect" coords="125,30,185,80" alt="316A" href="#" onclick="room(317)">
                 <area shape="rect" coords="220,0,280,120" alt="302" href="#" onclick="room(302)">
                 <area shape="rect" coords="190,120,280,210" alt="200" href="#" onclick="room(200)">
             </map>
             <div id=" choose-floor-container ">
                 <p>Floor</p>
-                <div id="1 " class="button purple ">1</div>
-                <div id="2 " class="button purple ">2</div>
-                <div id="3 " class="button purple highlight " onclick="changeImage() ">3</div>
-                <div id="4 " class="button purple " onclick="changeImage2() ">4</div>
+                <div id="1" class="button purple ">1</div>
+                <div id="2" class="button purple ">2</div>
+                <div id="3" class="button purple highlight " onclick="changeImage() ">3</div>
+                <div id="4" class="button purple " onclick="changeImage2() ">4</div>
             </div>
             <div id="room-info">
                 room info here

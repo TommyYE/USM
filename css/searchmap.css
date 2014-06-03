@@ -1,7 +1,7 @@
 #search-map-container {
     width: 290px;
     margin: auto;
-    height: 500px;
+    height: auto;
 }
 #search-map-container img {
     width: 280px;
@@ -20,6 +20,12 @@
     padding-top: 7px;
     display: inline-block;
 }
+
+#room-info {
+    margin-top:20px;  
+    font-weight: bold;
+}
+
 .button {
     color: #000;
     background-color: #fff;

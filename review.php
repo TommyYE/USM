@@ -197,10 +197,13 @@
                 <div class="review-text">
                     Please leave any further comments in the box below.
                 </div>
-                <textarea class="comments" rows="4" cols="32"></textarea>
+                <textarea id="comment" class="comments" rows="4" cols="32"></textarea>
             </div>
             <div class="review-box">
-                <input id="form-submit" class="button highlight" type="submit" value="Submit Review">
+                <div id="form-submit" class="button highlight" value="Submit Review" onclick="marshall()">Submit Review</div>
+            </div>
+            <div class="review-box">
+                <div id="response"></div>
             </div>
 
         </form>

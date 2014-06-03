@@ -81,7 +81,7 @@
             <img src="img/aeb.jpg" alt="Advanced Engineering Building" />
         </div>
         <div id="content-text">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lacinia lobortis tincidunt. Maecenas eget nunc sit amet odio commodo commodo. Integer ac arcu in arcu condimentum volutpat at eget nunc. Nam molestie ipsum risus, sit amet hendrerit magna facilisis ornare. Fusce facilisis est sed lorem gravida, sed elementum turpis rutrum. Fusce dui augue, lacinia vel erat imperdiet, condimentum elementum libero.</p>
+            <p>WISP is an application designed by a team of UQ students with the aim of providing detailed information about each room within the Advanced Engineering Building and help users find where a course is being held at a particular point in time. WISP also allows users of the AEB to provide useful feedback about each room to the staff that monitor the building and help provide a better experience for students and staff alike.</p>
         </div>
     </div>
     <div id="footer">

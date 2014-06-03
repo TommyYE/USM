@@ -80,13 +80,13 @@
         </div>
         <hr>
         <div id="search-types-container">
-            <a href=searchmap.php>
+            <a href=searchlist.php>
                 <div class="search-type">
                     <img src="img/searchOrange.png" alt="UQ Logo">
                     <p>SEARCH BY ROOM NUMBER</p>
                 </div>
             </a>
-            <a href=searchlist.php>
+            <a href=searchmap.php>
                 <div class="search-type">
                     <img src="img/searchBlue.png" alt="UQ Logo">
                     <p>SEARCH BY MAP</p>
