@@ -3,13 +3,13 @@ $arr=$_POST[ 'client_info'];
 $t1 = $t2 = $t3 = $t4 = $t5 = $l1 = $l2 = $l3 = $l4 = $l5 = $l6 = $n1 = $n2 = $n3 = 0;
 
 if(sizeof($arr) < 31) {
-    print_r( "Error1!\n" );
+    print_r( "Error: Please answer all questions.\n" );
 } elseif($arr[0] == "0" && $arr[1] == "0" && $arr[2] == "0") {
-    print_r( "Error2!\n" );
+    print_r( "Error: Please answer all questions.\n" );
 } elseif($arr[11] == "0" && $arr[12] == "0" && $arr[13] == "0") {
-    print_r( "Error3!\n" );
+    print_r( "Error: Please answer all questions.\n" );
 } elseif($arr[24] == "0" && $arr[25] == "0") {
-    print_r( "Error4!\n" );
+    print_r( "Error: Please answer all questions.\n" );
 } else {
     if($arr[1] == "1") {
         $t1 = 1;
@@ -56,7 +56,7 @@ if(sizeof($arr) < 31) {
         $n3 = 1;
     }
     $comment = $arr[30];
-    $con=mysqli_connect("localhost","root","","usm");
+    $con=mysqli_connect("localhost","root","Luck8Sight7angry","USM");
     
     if (mysqli_connect_errno())
     {
