@@ -45,7 +45,7 @@
 
         <div id="head-bottom">
             <div id="nav-container">
-                <a href=#>
+                <a href=tbc.php>
                     <div class="menu-btn">
                         <p>BULDING INFO</p>
                     </div>
@@ -76,7 +76,7 @@
     <div id="content">
         <div id="content-header">
             <img src="img/bookmark.png" alt="UQ Logo" height="55" width="30">
-            <h3>You are in Room 103</h3>
+            <h3>You are in Room 200</h3>
         </div>
         <div id="content-image">
             <img src="img/room-103.jpg" alt="Advanced Engineering Building" />

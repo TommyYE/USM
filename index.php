@@ -44,7 +44,7 @@
 
         <div id="head-bottom">
             <div id="nav-container">
-                <a href=#>
+                <a href=tbc.php>
                     <div class="menu-btn">
                         <p>BULDING INFO</p>
                     </div>
